@@ -18,16 +18,16 @@ Folder tree
 eg:
 
 Data_folder  -------
-             |______images
-                      |____ image1.jpeg
-                      |_____ image2.jpeg
-                      ........
-                      |_____ annotation.json
+.             |______images
+.                      |____ image1.jpeg
+.                     |_____ image2.jpeg
+.                      ........
+.                      |_____ annotation.json
                      
 ----- Imports ----- 
-import albumentations as A
-import cv2
-import json
-import numpy as np
-import matplotlib.pyplot as plt
-from glob import glob          
+1. import albumentations as A
+2. import cv2
+3. import json
+4. import numpy as np
+5. import matplotlib.pyplot as plt
+6. from glob import glob          
